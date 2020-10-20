@@ -138,18 +138,10 @@ nav ul li a span.rotate{
   font-weight: 500;
 }
 
-
 body{
-    background-image: url(https://lh3.googleusercontent.com/-Mcr5NmQwGJ8/X4spJZDqOgI/AAAAAAAAACA/z0YDmwXrfusraYro19ZDjlu_tjv59n_EwCK8BGAsYHg/s0/2020-10-17.png);
-    background-size: 100%;
-}
-
-h1{
-    text-align: center;
-}
-h3{
-    text-align: center;
     text-align: center;
 }
 
-
+p{
+    width: min-content;
+}

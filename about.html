@@ -7,15 +7,58 @@
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <a href="#menu" id="toggle"><span></span></a>
-    <div id="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Great Barrier Reef</a></li>
-        <li><a href="how.html">How was it formed?</a></li>
-        <li><a href="why.html">Why are the corals in it Disappearing?</a></li>
-      </ul>
-    </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+  
+</head>
+<body>
+<div class="btn">
+  <span class="fas fa-bars"></span>
+</div>
+<nav class="sidebar">
+  <div class="text">
+</div>
+<ul>
+<li class="active"><a href="index.html">HOME</a></li>
+
+
+
+<li>
+      <a href="about.html" class="serv-btn">About Great Barrier Reef
+        
+      </a>
+
+</li>
+<li><a href="how.html">How was the Great Barrier Reef Created?</a></li>
+<li><a href="why.html">Why are the corals in Great Barrier Reef Disappearing</a></li>
+<li><a href="types.html">Types Of Corals In Great Barrier Reef</a></li>
+<li><a href="#">Feedback</a></li>
+</ul>
+</nav>
+<div class="content">
+  <div class="header"></div>
+<p>
+</p>
+</div>
+<script>
+$('.btn').click(function(){
+  $(this).toggleClass("click");
+  $('.sidebar').toggleClass("show");
+});
+  $('.feat-btn').click(function(){
+    $('nav ul .feat-show').toggleClass("show");
+    $('nav ul .first').toggleClass("rotate");
+  });
+  $('.serv-btn').click(function(){
+    $('nav ul .serv-show').toggleClass("show1");
+    $('nav ul .second').toggleClass("rotate");
+  });
+  $('nav ul li').click(function(){
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+</script>
     <h1>You might be thinking.."What is Great Barrier Reef and where is it located?"</h1>
     
     <br>
